@@ -17,7 +17,8 @@
     "nodemon": "^2.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^4.0.1",
+    "react-scroll": "^1.8.1",
     "web-vitals": "^0.2.4",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-merge": "^5.4.0"
@@ -29,8 +30,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": ["react-app",
-    "react-app/jest"
+    "extends": [
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {
